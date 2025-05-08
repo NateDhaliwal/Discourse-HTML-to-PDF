@@ -2,6 +2,7 @@
   "name": "Discourse HTML to PDF",
   "component": true,
   "license_url": "https://github.com/NateDhaliwal/Discourse-HTML-to-PDF/blob/main/LICENSE",
+  "about_url": "https://meta.discourse.org/t/discourse-persistent-banner/330575",
   "authors": "NateDhaliwal",
   "theme_version": "1.0.0",
 }
