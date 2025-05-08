@@ -11,14 +11,14 @@ export default class ConvertButton extends Component {
     document.head.appendChild(scriptN);
     // ---------------------------------
     scriptN.onload = function() {
-      let elementToPrint = document.getElementById("main-outlet");
+      let elementToPrint = document.getElementById("ember162");
       html2pdf(elementToPrint);
     };
   }
 
   <template>
     <DButton
-      class="btn btn-text"
+      class="btn icon btn-flat"
       @icon="arrow-right-arrow-left"
       @action={{this.converthtmltopdf}}
     />
