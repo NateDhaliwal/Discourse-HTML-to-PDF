@@ -12,7 +12,16 @@ export default class ConvertButton extends Component {
     // ---------------------------------
     scriptN.onload = function() {
       let elementToPrint = document.getElementById("main-outlet");
-      html2pdf(elementToPrint);
+      const opt = {
+        margin: 10,
+        filename: 'myfile.pdf',
+        image: { type: 'jpeg', quality: 0.98 },
+        html2canvas: { scale: 2 },
+        jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
+      };
+
+      // Choose the element and options
+      html2pdf().from(element).set(opt).save();
     };
   }
 
