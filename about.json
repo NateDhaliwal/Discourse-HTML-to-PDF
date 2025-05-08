@@ -4,5 +4,10 @@
   "license_url": "https://github.com/NateDhaliwal/discourse-persistent-banner/blob/main/LICENSE",
   "component": true,
   "theme_version": "5.0.0",
-  "authors": "NateDhaliwal"
+  "authors": "NateDhaliwal",
+  "modifiers": {
+    "svg_icons": [
+      "arrow-right-arrow-left"
+    ]
+  }
 }
