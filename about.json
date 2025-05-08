@@ -1,9 +1,9 @@
 {
   "name": "Discourse HTML to PDF",
-  "about_url": "https://meta.discourse.org/t/discourse-persistent-banner/330575",
-  "license_url": "https://github.com/NateDhaliwal/discourse-persistent-banner/blob/main/LICENSE",
+  "about_url": "https://github.com/NateDhaliwal/Discourse-HTML-to-PDF",
+  "license_url": "https://github.com/NateDhaliwal/Discourse-HTML-to-PDF/blob/main/LICENSE",
   "component": true,
-  "theme_version": "5.0.0",
+  "theme_version": "1.0.0",
   "authors": "NateDhaliwal",
   "modifiers": {
     "svg_icons": [
