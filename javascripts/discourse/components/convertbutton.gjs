@@ -10,7 +10,7 @@ export default class ConvertButton extends Component {
     scriptN.integrity = "sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==";
     scriptN.crossorigin = "anonymous";
     scriptN.referrerpolicy = "no-referrer";
-    document.head.appendChild(scriptN):
+    document.head.appendChild(scriptN);
     // ---------------------------------
     scriptN.onload = function() {
       let elementToPrint = document.getElementById("main-outlet");
