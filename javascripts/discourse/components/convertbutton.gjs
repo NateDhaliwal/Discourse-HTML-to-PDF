@@ -11,7 +11,7 @@ export default class ConvertButton extends Component {
     document.head.appendChild(scriptN);
     // ---------------------------------
     scriptN.onload = function() {
-      let elementToPrint = document.getElementById("ember162");
+      let elementToPrint = document.getElementById("main");
       html2pdf(elementToPrint);
     };
   }
