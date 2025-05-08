@@ -14,14 +14,14 @@ export default class ConvertButton extends Component {
       let elementToPrint = document.getElementById("main-outlet");
       const opt = {
         margin: 10,
-        filename: 'myfile.pdf',
+        filename: 'page.pdf',
         image: { type: 'jpeg', quality: 0.98 },
         html2canvas: { scale: 2 },
         jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
       };
 
       // Choose the element and options
-      html2pdf().from(element).set(opt).save();
+      html2pdf().from(elementToPrint).set(opt).save();
     };
   }
 
