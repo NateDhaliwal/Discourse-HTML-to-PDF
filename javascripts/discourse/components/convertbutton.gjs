@@ -11,6 +11,7 @@ export default class ConvertButton extends Component {
     document.head.appendChild(scriptN);
     // ---------------------------------
     scriptN.onload = function() {
+      import { jsPDF } from "jspdf";
       /*
       let elementToPrint = document.getElementById("main-outlet");
       html2pdf(elementToPrint);
