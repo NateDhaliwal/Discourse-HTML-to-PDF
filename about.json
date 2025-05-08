@@ -2,9 +2,6 @@
   "name": "Discourse HTML to PDF",
   "component": true,
   "license_url": "https://github.com/NateDhaliwal/Discourse-HTML-to-PDF/blob/main/LICENSE",
-  "about_url": "https://github.com/NateDhaliwal/Discourse-HTML-to-PDF",
   "authors": "NateDhaliwal",
   "theme_version": "1.0.0",
-  "minimum_discourse_version": null,
-  "maximum_discourse_version": null,
 }
